@@ -312,6 +312,12 @@ img
   top: 0px;
 }
 
+/* match cursor color to theme */
+.CodeMirror-cursor
+{
+  border-left: 2px solid var(--blockquote-border);
+}
+
 /********/
 /* tags */
 /********/
