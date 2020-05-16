@@ -22,8 +22,8 @@
   --blockquote-border: #D6555F;
   --tag-background: #A7B0B3;
   --interactive-accent-rgb: #db4d52;
-  --font-family-editor: Avenir;
-  --font-family-preview: Avenir;
+  --font-family-editor: font-family: Avenir, "Avenir Next";
+  --font-family-preview: font-family: Avenir, "Avenir Next";
 }
 
 .theme-dark
@@ -50,8 +50,8 @@
   --blockquote-border: #4AA8FB;
   --tag-background: #A7B0B3;
   --interactive-accent-rgb: #6BCAFB;
-  --font-family-editor: Avenir;
-  --font-family-preview: Avenir;
+  --font-family-editor: font-family: Avenir, "Avenir Next";
+  --font-family-preview: font-family: Avenir, "Avenir Next";
 }
 
 
@@ -621,7 +621,7 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator
 .markdown-preview-view h1
 {
   font-family: var(--font-family-preview);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 28px;
   font-weight: bold;
   color: var(--text-title-h1);
@@ -630,7 +630,7 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator
 .markdown-preview-view h2
 {
   font-family: var(--font-family-preview);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 26px;
   font-weight: bold;
   color: var(--text-title-h2);
@@ -639,7 +639,7 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator
 .markdown-preview-view h3
 {
   font-family: var(--font-family-preview);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 22px;
   font-weight: bold;
   color: var(--text-title-h3);
@@ -648,16 +648,16 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator
 .markdown-preview-view h4
 {
   font-family: var(--font-family-preview);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 20px;
   font-weight: bold;
   color: var(--text-title-h4);
 }
 
-.markdown-preview-view h5,
+.markdown-preview-view h5
 {
   font-family: var(--font-family-preview);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 18px;
   font-weight: bold;
   color: var(--text-title-h5);
@@ -666,7 +666,7 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator
 .markdown-preview-view h6
 {
   font-family: var(--font-family-preview);
-  font-weight: 500;
+  font-weight: 600 !important;
   font-size: 16px;
   font-weight: bold;
   color: var(--text-title-h5);
