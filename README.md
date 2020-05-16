@@ -15,6 +15,6 @@
 
 3. Put the "obsidian.css" in your vault root folder.
 
-4. Restart Obsidian.
+4. Enjoy!
 
 _The font used is Avenir, so make sure you have that downloaded in your font library to achieve the full effect_
