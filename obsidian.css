@@ -95,7 +95,7 @@ a,
 {
   color: var(--text-a) !important;
   text-decoration: none !important;
-  font-family: Avenir, "Avenir Next" !important;
+  font-family: var(--font-family-preview) !important;
 }
 
 a.view-action
