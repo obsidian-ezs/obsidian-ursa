@@ -22,8 +22,8 @@
   --blockquote-border: #D6555F;
   --tag-background: #A7B0B3;
   --interactive-accent-rgb: #db4d52;
-  --font-family-editor: font-family: Avenir, "Avenir Next";
-  --font-family-preview: font-family: Avenir, "Avenir Next";
+  --font-family-editor: Avenir, "Avenir Next";
+  --font-family-preview: Avenir, "Avenir Next";
 }
 
 .theme-dark
@@ -50,8 +50,8 @@
   --blockquote-border: #4AA8FB;
   --tag-background: #A7B0B3;
   --interactive-accent-rgb: #6BCAFB;
-  --font-family-editor: font-family: Avenir, "Avenir Next";
-  --font-family-preview: font-family: Avenir, "Avenir Next";
+  --font-family-editor: Avenir, "Avenir Next";
+  --font-family-preview: Avenir, "Avenir Next";
 }
 
 
@@ -95,7 +95,7 @@ a,
 {
   color: var(--text-a) !important;
   text-decoration: none !important;
-  font-family: Avenir !important;
+  font-family: Avenir, "Avenir Next" !important;
 }
 
 a.view-action
