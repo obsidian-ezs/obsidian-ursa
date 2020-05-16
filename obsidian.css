@@ -422,7 +422,9 @@ a.tag
 body:not(.is-grabbing) .nav-file-title:hover,
 body:not(.is-grabbing) .nav-folder-title:hover,
 .search-result-file-match:hover,
-.search-result-file-title:hover
+.search-result-file-title:hover,
+body:not(.is-grabbing) .nav-file-title:hover .nav-folder-collapse-indicator,
+body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator
 {
   background-color: var(--pre-code);
   color: var(--text-normal);
