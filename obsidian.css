@@ -734,3 +734,14 @@ h6::before
 .workspace-leaf, .workspace-split > .workspace-split { min-width: 500px; min-height: 500px; }
 .workspace-split.mod-horizontal { overflow-y: auto; }
 */
+
+.side-dock-collapsible-section-header:hover,
+.tag-pane-tag:hover,
+.pane-clickable-item:hover,
+.suggestion-item:hover {
+  background: var(--pre-code);
+}
+
+.modal.mod-settings button:not(.mod-cta) {
+  color: var(--background-primary);
+}
